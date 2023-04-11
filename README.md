@@ -8,7 +8,7 @@ The model is then deployed to a web application where you can test your own imag
 
 ## Analysis
 The number of classes that the model can predict is 133 dog breeds. The below visualization shows the 
-
+![img](image/labels_counts_description.png)
 
 ## Conclusion
 We have trained our own dog breed predictor, then we have deployed it to a web application for us to predict our own images. One area of improvement for the over all accuracy is using more training data, another one is experimenting with different values for the hyperparameters (lr for example).
