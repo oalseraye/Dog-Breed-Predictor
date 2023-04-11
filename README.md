@@ -20,5 +20,17 @@ The number of classes that the model can predict is 133 dog breeds. The below st
 The following visualization shows the number of images for each of the top 15 classes  
 ![img](images/top_15.png)  
 
+
+## How to Run
+### Train your own model (optional):
+You can follow the steps in the notebook inside src folder.  
+### Deploy your model to the web:
+After training your model or using the pretrained model found in the saved_models folder, make sure that the model path in DogPredictor inside utils.py is the intended model.  
+After that, you can deploy your web app using the command
+
+    python app.py  
+Where it will tell you in the terminal the local host (url) it's running on, upload your images and watch the predictions  
+
+
 ## Conclusion
 We have trained our own dog breed predictor, then we have deployed it to a web application for us to use it to predict our own images. One area of improvement for the over all accuracy is using more training data, another one is experimenting with different values for the hyperparameters (lr for example).
