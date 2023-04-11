@@ -12,4 +12,4 @@ The following visualization shows the number of images for each of the top 15 cl
 ![img](images/top_15.png)  
 
 ## Conclusion
-We have trained our own dog breed predictor, then we have deployed it to a web application for us to predict our own images. One area of improvement for the over all accuracy is using more training data, another one is experimenting with different values for the hyperparameters (lr for example).
+We have trained our own dog breed predictor, then we have deployed it to a web application for us to use it to predict our own images. One area of improvement for the over all accuracy is using more training data, another one is experimenting with different values for the hyperparameters (lr for example).
