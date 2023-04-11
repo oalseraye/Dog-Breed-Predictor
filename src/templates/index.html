@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Dog Breed Predictor</title>
+</head>
+<body>
+<h1 align="center">Upload a dog image to predict its breed or a human image to get the closest breed to the image</h1>
+<div align="center">
+    <h2>Select a file to upload</h2>
+    <form method="post" action="/" enctype="multipart/form-data">
+        <input type="file" name="file" class="form-control" autocomplete="off" required>
+        <input type="submit" value="Submit" class="btn btn-info">
+    <p>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+    </p>
+    </form>
+</div>
+</div>
+</body>
+</html>
