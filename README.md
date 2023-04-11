@@ -4,6 +4,15 @@
 This project lets you train your own dog breed predictor using deep learning and Keras framework and use it on dog images to predict its breed or a human images to get the closest breed to the image, or you can use a pre-trained model existing in saved_models folder with a 82% accuracy accross all dog breeds!!  
 The model is then deployed to a web application where you can test your own images!  
 
+## Requirements
+python = 3.6  
+keras = 2.0.9  
+tensorflow = 1.3.0  
+opencv = 3.3.1  
+pillow = 5.2.0  
+h5py = 2.7.1  
+flask  
+You can download all of these packages using anaconda and conda-forge  
 
 ## Analysis
 The number of classes that the model can predict is 133 dog breeds. The below stats shows the distribution of the number of labels for each class in the training data  
